@@ -1,0 +1,16 @@
+// Enemy: Chef
+sprite SD_CHEF
+{
+    source_file     images/baddies.png
+    source_rect     152 418 168 45
+    frame_size      42 45
+    hot_spot        21 44
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1 2 3
+    }
+}

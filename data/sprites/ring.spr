@@ -1,0 +1,24 @@
+// Ring
+sprite SD_RING
+{
+    source_file     images/items.png
+    source_rect     278 178 64 48
+    frame_size      16 16
+    hot_spot        9 12
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         16
+        data        0 1 2 3 4 5 6 7
+    }
+
+    // end
+    animation 1
+    {
+        repeat      FALSE
+        fps         8
+        data        8 9 10
+    }
+}

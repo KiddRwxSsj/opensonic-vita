@@ -1,0 +1,217 @@
+// Charge
+sprite SD_KNUCKLES
+{
+    source_file     images/player.png
+    source_rect     450 20 250 650
+    frame_size      50 50
+    hot_spot        25 50
+
+    // stopped
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+
+    // walking
+    animation 1
+    {
+        repeat      TRUE
+        fps         8
+        data        3 4 5 6 7 8 9 10
+    }
+
+    // running
+    animation 2
+    {
+        repeat      TRUE
+        fps         8
+        data        11 12 13 14
+    }
+
+    // jumping
+    animation 3
+    {
+        repeat      TRUE
+        fps         16
+        data        15 16 17 18 19
+    }
+
+    // crouch down
+    animation 4
+    {
+        repeat      FALSE
+        fps         12
+        data        20 21
+    }
+
+    // look up
+    animation 5
+    {
+        repeat      FALSE
+        fps         12
+        data        24 25
+    }
+
+    // spin dash
+    animation 6
+    {
+        repeat      TRUE
+        fps         16
+        data        40 41 42 43 44 45
+    }
+
+    // braking
+    animation 7
+    {
+        repeat      FALSE
+        fps         8
+        data        23
+    }
+
+    // dead
+    animation 8
+    {
+        repeat      FALSE
+        fps         8
+        data        34
+    }
+
+    // drowned
+    animation 9
+    {
+        repeat      FALSE
+        fps         8
+        data        49
+    }
+
+    // ledge
+    animation 10
+    {
+        repeat      TRUE
+        fps         6
+        data        46 47
+    }
+
+    // ringless
+    animation 11
+    {
+        repeat      FALSE
+        fps         8
+        data        35
+    }
+
+    // breathing
+    animation 12
+    {
+        repeat      FALSE
+        fps         8
+        data        50
+    }
+
+    // spring
+    animation 13
+    {
+        repeat      TRUE
+        fps         8
+        data        48
+    }
+
+    // pushing
+    animation 14
+    {
+        repeat      TRUE
+        fps         8
+        data        3 4 5 6 7 8 9 10
+    }
+
+    // waiting
+    animation 15
+    {
+        repeat      TRUE
+        fps         6
+        data        1 2
+    }
+
+    // no more climbing (custom)
+    animation 16
+    {
+        repeat      FALSE
+        fps         8
+        data        26 27 28
+    }
+
+    // climbing (custom)
+    animation 17
+    {
+        repeat      TRUE
+        fps         12
+        data        29 30 31 32 33 28
+    }    
+
+    // end of flight (custom)
+    animation 18
+    {
+        repeat      FALSE
+        fps         16
+        data        26 27
+    }
+
+    // flying - ground (custom)
+    animation 19
+    {
+        repeat      FALSE
+        fps         8
+        data        39
+    }
+
+    // flying - air (custom)
+    animation 20
+    {
+        repeat      FALSE
+        fps         8
+        data        22
+    }
+
+    // flying - turn around (custom)
+    animation 21
+    {
+        repeat      FALSE
+        fps         8
+        data        53 52 51 
+    }
+
+    // climbing - stopped (custom)
+    animation 22
+    {
+        repeat      FALSE
+        fps         8
+        data        28
+    }
+
+    // climbing - reached the top (custom)
+    animation 23
+    {
+        repeat      FALSE
+        fps         8
+        data        36 37 38
+    }
+
+    // -----
+    animation 24
+    {
+        repeat      FALSE
+        fps         1
+        data        0
+    }
+
+    // being carried
+    animation 25
+    {
+        repeat      TRUE
+        fps         8
+        data        54
+    }
+}
+

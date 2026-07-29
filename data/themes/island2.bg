@@ -1,0 +1,229 @@
+// ===============================
+// Open Sonic
+// island.bg - Background theme
+// ===============================
+
+// layer 0 - bottom green (spawn point ypos: around 6000)
+background
+{
+    initial_position    0 197
+    scroll_speed        -0.30 -0.04
+    behavior            DEFAULT
+    repeat_x            TRUE
+    repeat_y            TRUE
+
+    sprite
+    {
+        source_file     images/island2.png
+        source_rect     0 1300 888 100
+        frame_size      888 100
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 297
+    scroll_speed        -0.30 -0.04
+    behavior            DEFAULT
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/island2.png
+        source_rect     0 1211 888 89
+        frame_size      888 89
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+
+// layer 1
+background
+{
+    initial_position    0 273
+    scroll_speed        -0.25 -0.04
+    behavior            DEFAULT
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/island2.png
+        source_rect     0 1187 888 24
+        frame_size      888 24
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+
+// layer 2
+background
+{
+    initial_position    0 199
+    scroll_speed        -0.20 -0.04
+    behavior            DEFAULT
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/island2.png
+        source_rect     0 1113 888 74
+        frame_size      888 74
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+// layer 3 (water)
+background
+{
+    initial_position    0 180
+    scroll_speed        -0.20 -0.04
+    behavior            LINEAR -8.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/island2.png
+        source_rect     0 1096 888 19
+        frame_size      888 19
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+// layer 4 (water)
+background
+{
+    initial_position    0 142
+    scroll_speed        -0.17 -0.04
+    behavior            LINEAR -6.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/island2.png
+        source_rect     0 1058 888 38
+        frame_size      888 38
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+
+// layer 5 (water)
+background
+{
+    initial_position    0 105
+    scroll_speed        -0.14 -0.04
+    behavior            LINEAR -4.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/island2.png
+        source_rect     0 1015 888 37
+        frame_size      888 37
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+// layer 6 (water)
+background
+{
+    initial_position    0 79
+    scroll_speed        -0.11 -0.04
+    behavior            LINEAR -2.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/island2.png
+        source_rect     0 985 888 26
+        frame_size      888 26
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+// layer 7 (sky)
+background
+{
+    initial_position    0 0
+    scroll_speed        -0.10 -0.04
+    behavior            DEFAULT
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/island2.png
+        source_rect     0 906 888 79
+        frame_size      888 79
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}

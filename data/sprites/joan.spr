@@ -1,0 +1,16 @@
+// Enemy: Joan
+sprite SD_JOAN
+{
+    source_file     images/baddies.png
+    source_rect     0 0 126 28
+    frame_size      42 28
+    hot_spot        21 27
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1 2
+    }
+}

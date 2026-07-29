@@ -1,0 +1,1556 @@
+// ================================================================
+// Open Sonic
+// blue_ocean.brk - Brick theme
+// ================================================================
+
+brick 0
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     8 3 128 32
+        frame_size      128 32
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     8 56 136 88
+        frame_size      136 88
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 2
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     7 165 128 32
+        frame_size      128 32
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 3
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               26
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     11 204 127 64
+        frame_size      127 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 4
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     10 269 65 33
+        frame_size      65 33
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 5
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               334
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     10 314 127 64
+        frame_size      127 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 6
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     73 379 65 33
+        frame_size      65 33
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 7
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     10 428 128 192
+        frame_size      128 32
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0 1 2 3 4 5
+        }
+    }
+}
+
+brick 8
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     392 171 256 20
+        frame_size      256 20
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 9
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               26
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     381 5 128 64
+        frame_size      128 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 10
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               26
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     381 5 128 64
+        frame_size      128 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 11
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               116
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     381 90 128 64
+        frame_size      128 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 12
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               206
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     516 90 128 64
+        frame_size      128 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 13
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               334
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     516 5 128 64
+        frame_size      128 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 14
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     649 11 129 136
+        frame_size      129 136
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 15
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     649 148 129 136
+        frame_size      129 136
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// loop 1
+brick 16
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     380 333 136 33
+        frame_size      136 33
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 17
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               17
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     378 315 51 16
+        frame_size      51 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 18
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               45
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     429 286 29 29
+        frame_size      29 29
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 19
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               75
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     458 227 16 59
+        frame_size      16 59
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 20
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     430 316 45 16
+        frame_size      45 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 21
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     459 287 16 29
+        frame_size      16 29
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 22
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               90
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     476 227 40 104
+        frame_size      40 104
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+//end of loop 1
+
+brick 23
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               90
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     684 345 33 33
+        frame_size      33 33
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 24
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               270
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     747 345 33 33
+        frame_size      33 33
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// loop 2
+brick 25
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     518 333 136 33
+        frame_size      136 33
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 26
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               343
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     605 315 51 16
+        frame_size      51 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 27
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               315
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     576 286 29 29
+        frame_size      29 29
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 28
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               285
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     560 227 16 59
+        frame_size      16 59
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 29
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     559 316 45 16
+        frame_size      45 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 30
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     559 287 16 29
+        frame_size      16 29
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 31
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               270
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     518 227 40 104
+        frame_size      40 104
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+// end of loop 2
+
+// loop 3
+brick 32
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     518 368 136 33
+        frame_size      136 33
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 33
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               197
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     605 403 51 16
+        frame_size      51 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 34
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               225
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     576 419 29 29
+        frame_size      29 29
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 35
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               255
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     560 448 16 59
+        frame_size      16 59
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 36
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     559 402 45 16
+        frame_size      45 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 37
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     559 418 16 29
+        frame_size      16 29
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 38
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               270
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     518 403 40 104
+        frame_size      40 104
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+// end of loop 3
+
+// loop 4
+brick 39
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     380 368 136 33
+        frame_size      136 33
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 40
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               163
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     378 403 51 16
+        frame_size      51 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 41
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               135
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     429 419 29 29
+        frame_size      29 29
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 42
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               105
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     458 448 16 59
+        frame_size      16 59
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 43
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     430 402 45 16
+        frame_size      45 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 44
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     459 418 16 29
+        frame_size      16 29
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 45
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               90
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     476 403 40 104
+        frame_size      40 104
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+// end of loop 4
+
+// loop top
+brick 46
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               180
+    zindex              0.4
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     684 398 33 22
+        frame_size      33 22
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 47
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     684 385 33 11
+        frame_size      33 11
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+// end of loop top
+
+brick 48
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     672 451 129 56
+        frame_size      129 56
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+brick 49
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     195 10 96 72
+        frame_size      96 72
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 50
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     328 12 32 128
+        frame_size      32 128
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 51
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     266 104 48 24
+        frame_size      48 24
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 52
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     207 98 49 96
+        frame_size      49 96
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 53
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     274 156 15 24
+        frame_size      15 24
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 54
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     294 156 28 24
+        frame_size      28 24
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 55
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     329 156 16 24
+        frame_size      16 24
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 56
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     210 209 129 32
+        frame_size      129 32
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 57
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     218 257 8 24
+        frame_size      8 24
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 58
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     226 257 56 24
+        frame_size      56 24
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 59
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     200 346 53 166
+        frame_size      53 166
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 60
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     274 317 52 195
+        frame_size      52 195
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 61
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     175 537 288 126
+        frame_size      96 126
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0 1 2
+        }
+    }
+}
+
+brick 62
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     493 535 220 128
+        frame_size      44 128
+
+        animation
+        {
+            repeat      TRUE
+            fps         16
+            data        0 1 2 3 4 3 2 1
+        }
+    }
+}
+
+brick 63
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     150 101 52 97
+        frame_size      52 97
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// Arrows
+brick 64
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     762 537 34 52
+        frame_size      34 52
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 65
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     797 537 34 52
+        frame_size      34 52
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 66
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     762 590 34 52
+        frame_size      34 52
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 67
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     797 590 34 52
+        frame_size      34 52
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// Moveable platform
+brick 68
+{
+    type                OBSTACLE
+    behavior            CIRCULAR 200 0 0.1 0
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     38 637 64 32
+        frame_size      64 32
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+
+// Misc
+brick 69
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+    zindex              0.1
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 690 96 80
+        frame_size      96 80
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 70
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               90
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     826 305 40 104
+        frame_size      40 104
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 71
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               270
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     871 305 40 104
+        frame_size      40 104
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 72
+{
+    type                CLOUD
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     784 11 128 192
+        frame_size      128 32
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0 1 2 3 4 5
+        }
+    }
+}
+

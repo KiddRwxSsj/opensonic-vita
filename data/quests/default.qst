@@ -1,0 +1,24 @@
+// ---------------------------------------------------------------------------
+// Open Surge Engine
+// http://opensnc.sourceforge.net
+//
+// File:   quests/default.qst
+// Desc:   this is the default quest
+// Author: OS Team
+// ---------------------------------------------------------------------------
+
+// quest properties
+name            "$DEFAULT_QUEST_NAME"
+author          "OS Team"
+version         "1.0"
+description     "$MENU_CQ_DEFAULT"
+image           "images/null.png"
+show_ending     TRUE
+
+// level list (in order of appearance)
+level           "levels/blue_ocean_1.lev"
+level           "levels/blue_ocean_2.lev"
+level           "levels/blue_ocean_3.lev"
+level           "levels/exotic_1.lev"
+level           "levels/exotic_2.lev"
+level           "levels/exotic_3.lev"

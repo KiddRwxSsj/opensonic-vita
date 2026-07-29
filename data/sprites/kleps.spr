@@ -1,0 +1,16 @@
+// Enemy: Kleps
+sprite SD_KLEPS
+{
+    source_file     images/baddies.png
+    source_rect     308 319 60 25
+    frame_size      30 25
+    hot_spot        15 24
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1
+    }
+}

@@ -1,0 +1,81 @@
+// Boss: Simple Boss
+sprite SD_SIMPLEBOSS
+{
+    source_file     images/boss.png
+    source_rect     0 0 216 56
+    frame_size      54 56
+    hot_spot        27 55
+
+    // walking
+    animation 0
+    {
+        repeat      TRUE
+        fps         16
+        data        0 1
+    }
+
+    // got damaged
+    animation 1
+    {
+        repeat      FALSE
+        fps         8
+        data        2 2 2
+    }
+
+    // defeated
+    animation 2
+    {
+        repeat      TRUE
+        fps         8
+        data        3
+    }
+}
+
+// Boss: Mecha Shadow
+sprite SD_MECHASHADOW
+{
+    source_file     images/boss.png
+    source_rect     0 71 300 50
+    frame_size      50 50
+    hot_spot        25 25
+
+    // levitating
+    animation 0
+    {
+        repeat      TRUE
+        fps         16
+        data        0 1
+    }
+
+    // levitating - got damaged
+    animation 1
+    {
+        repeat      FALSE
+        fps         8
+        data        4 4
+    }
+
+    // attacking
+    animation 2
+    {
+        repeat      TRUE
+        fps         16
+        data        2 3
+    }
+
+    // attacking - got damaged
+    animation 3
+    {
+        repeat      FALSE
+        fps         8
+        data        5 5
+    }
+
+    // dead
+    animation 4
+    {
+        repeat      TRUE
+        fps         32
+        data        4 0
+    }
+}

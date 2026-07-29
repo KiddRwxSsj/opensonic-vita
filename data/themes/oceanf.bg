@@ -1,0 +1,636 @@
+// ================================================================ 
+// Open Sonic
+// oceanf.bg - Background theme
+// ================================================================ 
+
+// foreground
+background
+{
+    initial_position    90 2600
+    scroll_speed        -1.2 -1.05
+    behavior            DEFAULT
+    repeat_x            TRUE
+    repeat_y            FALSE
+    zindex              0.7 // if zindex > 0.5, then it's a foreground
+
+    sprite
+    {
+        source_file     images/oceanfg.png
+        source_rect     0 0 368 290
+        frame_size      368 290
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// layer 0 - sky
+background
+{
+    initial_position    0 0
+    scroll_speed        -0.05 0
+    behavior            DEFAULT
+    repeat_x            TRUE
+    repeat_y            TRUE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 960 925 130
+        frame_size      925 130
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// layer 1
+background
+{
+    initial_position    0 130
+    scroll_speed        -0.10 0
+    behavior            LINEAR -5.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1090 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 132
+    scroll_speed        -0.11 0
+    behavior            LINEAR -6.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1092 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 134
+    scroll_speed        -0.12 0
+    behavior            LINEAR -7.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1094 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 136
+    scroll_speed        -0.13 0
+    behavior            LINEAR -8.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1096 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// layer 2
+background
+{
+    initial_position    0 138
+    scroll_speed        -0.14 0
+    behavior            LINEAR -9.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1098 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 140
+    scroll_speed        -0.15 0
+    behavior            LINEAR -10.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1100 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 142
+    scroll_speed        -0.16 0
+    behavior            LINEAR -11.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1102 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 144
+    scroll_speed        -0.17 0
+    behavior            LINEAR -12.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1104 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// layer 3
+background
+{
+    initial_position    0 146
+    scroll_speed        -0.18 0
+    behavior            LINEAR -13.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1106 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 148
+    scroll_speed        -0.19 0
+    behavior            LINEAR -14.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1108 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 150
+    scroll_speed        -0.20 0
+    behavior            LINEAR -15.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1110 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 152
+    scroll_speed        -0.21 0
+    behavior            LINEAR -16.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1112 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// layer 4
+background
+{
+    initial_position    0 154
+    scroll_speed        -0.22 0
+    behavior            LINEAR -17.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1114 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 156
+    scroll_speed        -0.23 0
+    behavior            LINEAR -18.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1116 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 158
+    scroll_speed        -0.24 0
+    behavior            LINEAR -19.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1118 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 160
+    scroll_speed        -0.25 0
+    behavior            LINEAR -20.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1120 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// layer 5
+background
+{
+    initial_position    0 162
+    scroll_speed        -0.26 0
+    behavior            LINEAR -21.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1122 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 164
+    scroll_speed        -0.27 0
+    behavior            LINEAR -22.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1124 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 166
+    scroll_speed        -0.28 0
+    behavior            LINEAR -23.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1126 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 168
+    scroll_speed        -0.29 0
+    behavior            LINEAR -24.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1128 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// layer 6
+background
+{
+    initial_position    0 170
+    scroll_speed        -0.30 0
+    behavior            LINEAR -25.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1130 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 172
+    scroll_speed        -0.31 0
+    behavior            LINEAR -26.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1132 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 174
+    scroll_speed        -0.32 0
+    behavior            LINEAR -27.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1134 925 2
+        frame_size      925 2
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+background
+{
+    initial_position    0 176
+    scroll_speed        -0.33 0
+    behavior            LINEAR -28.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     0 1136 925 114
+        frame_size      925 114
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+// boat
+background
+{
+    initial_position    100 235
+    scroll_speed        -0.25 -0.05
+    behavior            LINEAR -10.0 0.0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/ocean.png
+        source_rect     110 700 810 170
+        frame_size      810 170
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}

@@ -1,0 +1,129 @@
+// ---------------------------------------------------------------------------
+// Open Surge Engine
+// http://opensnc.sourceforge.net
+//
+// File:   themes/menu.bg
+// Desc:   this background is displayed on the main menu
+// Author: OS Team
+// ---------------------------------------------------------------------------
+
+// sky 1
+background
+{
+    initial_position    0 -31
+    scroll_speed        -0.05 0
+    behavior            LINEAR -40 0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/prototype1.png
+        source_rect     8 2 256 102
+        frame_size      256 102
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// sky 2
+background
+{
+    initial_position    0 71
+    scroll_speed        -0.10 0
+    behavior            LINEAR -45 0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/prototype1.png
+        source_rect     8 107 510 43
+        frame_size      510 43
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// mountains 1
+background
+{
+    initial_position    0 84
+    scroll_speed        -0.15 0
+    behavior            LINEAR -30 0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/prototype1.png
+        source_rect     8 153 512 48
+        frame_size      512 48
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// mountains 2
+background
+{
+    initial_position    0 132
+    scroll_speed        -0.20 0
+    behavior            LINEAR -50 0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/prototype1.png
+        source_rect     8 202 512 61
+        frame_size      512 61
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// green
+background
+{
+    initial_position    0 180
+    scroll_speed        -0.25 0
+    behavior            LINEAR -75 0
+    repeat_x            TRUE
+    repeat_y            FALSE
+
+    sprite
+    {
+        source_file     images/prototype1.png
+        source_rect     8 266 520 75
+        frame_size      520 75
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+

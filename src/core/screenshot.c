@@ -1,0 +1,96 @@
+/*
+ * screenshot.c - screenshots module
+ * Copyright (C) 2008-2010  Alexandre Martins <alemartf(at)gmail(dot)com>
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License along
+ * with this program; if not, write to the Free Software Foundation, Inc.,
+ * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ *
+ * --- PS Vita port ---
+ * Upstream binds this to the '=' and PrintScreen keys via a dedicated
+ * input_create_keyboard() device, both otherwise unused by gameplay.
+ * On this platform input.c's "keyboard" device mirrors the same
+ * physical gamepad the player controls with (see input.c), so reusing
+ * that indirection here would fire a screenshot on ordinary jump/attack
+ * presses. Instead this reads sceCtrl directly and triggers on the
+ * L+R trigger combo, which nothing else in the game binds.
+ */
+
+#include <stdio.h>
+#include <psp2/ctrl.h>
+#include "screenshot.h"
+#include "osspec.h"
+#include "logfile.h"
+#include "video.h"
+#include "image.h"
+
+/* private data */
+static int was_pressed;
+static char *next_available_filename();
+
+/*
+ * screenshot_init()
+ * Initializes the screenshot module
+ */
+void screenshot_init()
+{
+    was_pressed = FALSE;
+}
+
+
+/*
+ * screenshot_update()
+ * Checks if the user wants to take a snapshot, and if
+ * he/she does, we must do it.
+ */
+void screenshot_update()
+{
+    SceCtrlData pad;
+    int is_pressed;
+
+    sceCtrlPeekBufferPositive(0, &pad, 1);
+    is_pressed = (pad.buttons & SCE_CTRL_LTRIGGER) && (pad.buttons & SCE_CTRL_RTRIGGER);
+
+    if(is_pressed && !was_pressed) {
+        char *file = next_available_filename();
+        image_save(video_get_backbuffer(), file);
+        video_showmessage("'screenshots/%s' saved", basename(file));
+        logfile_message("New screenshot: %s", file);
+    }
+
+    was_pressed = is_pressed;
+}
+
+
+/*
+ * screenshot_release()
+ * Releases this module
+ */
+void screenshot_release()
+{
+}
+
+
+/* misc */
+char *next_available_filename()
+{
+    static char f[64], abs_path[1024];
+    int i;
+
+    for(i=0;;i++) {
+        sprintf(f, "screenshots/s%03d.png", i);
+        resource_filepath(abs_path, f, sizeof(abs_path), RESFP_WRITE);
+        if(!filepath_exists(abs_path))
+            return abs_path;
+    }
+}

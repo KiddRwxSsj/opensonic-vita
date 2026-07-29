@@ -1,0 +1,174 @@
+// ---------------------------------------------------------------------------
+// Open Surge Engine
+// http://opensnc.sourceforge.net
+//
+// File:   objects/old_enemies.def
+// Desc:   old enemies used since version 0.1.0 of the game engine
+// Author: OS Team
+// ---------------------------------------------------------------------------
+
+object "0"
+{
+    requires 0.1.4
+
+    state "main"
+    {
+        // basic enemy properties
+        set_animation "SD_JOAN" 0
+        enemy 100
+
+        // movement programming
+        gravity
+        walk 100.0
+        look_at_walking_direction
+    }
+}
+
+object "1"
+{
+    requires 0.1.4
+
+    state "main"
+    {
+        // basic enemy properties
+        set_animation "SD_FLYINGBOY" 0
+        enemy 100
+
+        // movement programming
+        elliptical_trajectory 0.0 20.0 0.0 0.5 0.0 0.0
+        walk 100.0
+        look_at_walking_direction
+    }
+}
+
+object "2"
+{
+    requires 0.1.4
+
+    state "main"
+    {
+        // basic enemy properties
+        set_animation "SD_FLYINGEYES" 0
+        enemy 100
+
+        // movement programming
+        elliptical_trajectory 0.0 20.0 0.0 0.5 0.0 0.0
+        look_at_player
+    }
+}
+
+object "3"
+{
+    requires 0.1.4
+
+    state "main"
+    {
+        // basic enemy properties
+        set_animation "SD_KLEPS" 0
+        enemy 50
+
+        // movement programming
+        gravity
+        walk 50.0
+        look_at_walking_direction
+    }
+}
+
+object "4"
+{
+    requires 0.1.4
+
+    state "main"
+    {
+        // basic enemy properties
+        set_animation "SD_GOLDFISH" 0
+        enemy 100
+
+        // movement programming
+        bullet_trajectory -150.0 0.0
+        look_at_walking_direction
+    }
+}
+
+object "5"
+{
+    requires 0.1.4
+
+    state "main"
+    {
+        // basic enemy properties
+        set_animation "SD_SURPREYES" 0
+        enemy 150
+
+        // movement programming
+        bullet_trajectory -200.0 0.0
+        look_at_walking_direction
+    }
+}
+
+object "6"
+{
+    requires 0.1.4
+
+    state "main"
+    {
+        // basic enemy properties
+        set_animation "SD_ORANJECTION" 0
+        enemy 150
+
+        // movement programming
+        mosquito_movement 100.0
+        look_at_walking_direction
+    }
+}
+
+object "7"
+{
+    requires 0.1.4
+
+    state "main"
+    {
+        // basic enemy properties
+        set_animation "SD_ROBOXER" 0
+        enemy 100
+
+        // movement programming
+        gravity
+        walk 110.0
+        look_at_walking_direction
+    }
+}
+
+object "8"
+{
+    requires 0.1.4
+
+    state "main"
+    {
+        // basic enemy properties
+        set_animation "SD_NAFDER" 0
+        enemy 150
+
+        // movement programming
+        gravity
+        walk 120.0
+        look_at_walking_direction
+    }
+}
+
+object "9"
+{
+    requires 0.1.4
+
+    state "main"
+    {
+        // basic enemy properties
+        set_animation "SD_CHEF" 0
+        enemy 100
+
+        // movement programming
+        gravity
+        walk 120.0
+        look_at_walking_direction
+    }
+}

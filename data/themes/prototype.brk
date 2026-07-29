@@ -1,0 +1,320 @@
+// ================================================================
+// Open Sonic
+// Brick theme for Test Zone
+// ================================================================
+
+brick 0
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     0 0 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               45
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     64 0 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 2
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               315
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     128 0 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 3
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+    zindex              0.1
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     0 64 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 4
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               135
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     64 64 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 5
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               225
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     128 64 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 6
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               90
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     0 128 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 7
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               180
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     64 128 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 8
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               270
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     128 128 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 9
+{
+    type                OBSTACLE
+    behavior            CIRCULAR 100 0 0.5
+    angle               0
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     0 192 128 64
+        frame_size      128 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0 
+        }
+    }
+}
+
+brick 10
+{
+    type                OBSTACLE
+    behavior            CIRCULAR 75 75 -0.3 0.3
+    angle               0
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     0 0 64 32
+        frame_size      64 32
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 11
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     128 192 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 12
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               45
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     0 256 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 13
+{
+    type                CLOUD
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     64 256 64 64
+        frame_size      64 64
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 14
+{
+    type                CLOUD
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/prototype2.png
+        source_rect     64 256 64 64
+        frame_size      64 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0 1 2
+        }
+    }
+}

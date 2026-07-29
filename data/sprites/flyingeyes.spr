@@ -1,0 +1,16 @@
+// Enemy: Flying Eyes
+sprite SD_FLYINGEYES
+{
+    source_file     images/baddies.png
+    source_rect     243 246 192 60
+    frame_size      48 60
+    hot_spot        26 59
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1 2 3
+    }
+}

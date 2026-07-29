@@ -1,0 +1,855 @@
+//
+// Template - Brickset
+// This script was written by Alexandre Martins (2010)
+// Thanks to RJ Green for the graphics (Background Template)
+//
+
+// CATEGORY ZERO: OBSTACLES
+brick 0
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+    zindex              0.5
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     315 157 96 48
+        frame_size      96 48
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               29
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     412 183 32 18
+        frame_size      32 18
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 2
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               45
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     445 183 16 16
+        frame_size      16 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 3
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               62
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     462 183 11 21
+        frame_size      11 21
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 4
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               331
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     412 158 32 18
+        frame_size      32 18
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 5
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               315
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     445 158 16 16
+        frame_size      16 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 6
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               298
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     462 158 11 21
+        frame_size      11 21
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 7
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     474 157 10 10
+        frame_size      10 10
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 8
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     474 157 48 48
+        frame_size      48 48
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+
+// CATEGORY ONE: PASSABLE BRICKS
+brick 100
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     319 303 32 32
+        frame_size      32 32
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 101
+{
+    // red lamp post
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    // bring to front (note that 0.7 > 0.5)
+    // i.e., display this brick in front of
+    // the player/other bricks
+    zindex              0.7
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     366 278 38 56
+        frame_size      19 56
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0 1
+        }
+    }
+}
+
+
+brick 102
+{
+    // green lamp post
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    // bring to back (note that 0.3 < 0.5)
+    zindex              0.3
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     414 278 38 56
+        frame_size      19 56
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0 1
+        }
+    }
+}
+
+
+
+
+
+// CATEGORY TWO: CLOUDS
+brick 200
+{
+    type                CLOUD
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     320 426 64 32
+        frame_size      64 32
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+
+
+
+
+
+// CATEGORY THREE: BREAKABLES
+brick 300
+{
+    type                OBSTACLE
+    behavior            BREAKABLE 2 2
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     9 305 32 32
+        frame_size      32 32
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+
+
+
+// CATEGORY FOUR: FALLING BRICKS
+brick 400
+{
+    type                OBSTACLE
+    behavior            FALL 2 2 0
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     13 419 32 32
+        frame_size      32 32
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+
+
+
+
+// (add other categories here)
+
+
+
+
+
+
+
+// LAST CATEGORY: LOOP
+brick 1000
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               45
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     174 197 35 35
+        frame_size      35 35
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1001
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               71
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     209 146 18 51
+        frame_size      18 51
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1002
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               109
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     209 73 18 52
+        frame_size      18 52
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1003
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               135
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     180 44 29 29
+        frame_size      29 29
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1004
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               160
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     137 28 43 16
+        frame_size      43 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1005
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               200
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     74 28 43 16
+        frame_size      43 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1006
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               225
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     45 44 29 29
+        frame_size      29 29
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1007
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               251
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     27 73 18 52
+        frame_size      18 52
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1008
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               289
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     27 146 18 51
+        frame_size      18 51
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1009
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               315
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     45 197 35 35
+        frame_size      35 35
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+// --------
+
+brick 1010
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     209 197 18 35
+        frame_size      18 35
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1011
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     209 28 18 45
+        frame_size      18 45
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1012
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     180 28 29 16
+        frame_size      29 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1013
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     45 28 29 16
+        frame_size      29 16
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1014
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     27 28 18 45
+        frame_size      18 45
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1015
+{
+    type                PASSABLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     27 197 18 35
+        frame_size      18 35
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+
+// ----------
+
+brick 1016
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     160 233 96 24
+        frame_size      96 24
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1017
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               90
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     227 28 29 204
+        frame_size      29 204
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1018
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     227 0 29 28
+        frame_size      29 28
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1019
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               180
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     27 14 200 14
+        frame_size      200 14
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1020
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     27 0 200 14
+        frame_size      200 14
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1021
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               0
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     0 0 27 28
+        frame_size      27 28
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}
+
+brick 1022
+{
+    type                OBSTACLE
+    behavior            DEFAULT
+    angle               270
+
+    sprite
+    {
+        source_file     images/template.png
+        source_rect     0 28 27 204
+        frame_size      27 204
+
+        animation
+        {
+            repeat      TRUE
+            fps         8
+            data        0
+        }
+    }
+}

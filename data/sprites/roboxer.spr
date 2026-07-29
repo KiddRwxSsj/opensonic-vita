@@ -1,0 +1,16 @@
+// Enemy: Roboxer
+sprite SD_ROBOXER
+{
+    source_file     images/baddies.png
+    source_rect     0 33 111 34
+    frame_size      37 34
+    hot_spot        19 33
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1 2
+    }
+}

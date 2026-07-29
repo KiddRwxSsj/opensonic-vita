@@ -1,0 +1,16 @@
+// Enemy: Oranjection
+sprite SD_ORANJECTION
+{
+    source_file     images/baddies.png
+    source_rect     95 414 39 48
+    frame_size      39 24
+    hot_spot        20 23
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1
+    }
+}

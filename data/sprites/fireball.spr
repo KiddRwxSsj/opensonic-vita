@@ -1,0 +1,32 @@
+// Fireball
+sprite SD_FIREBALL
+{
+    source_file     images/items.png
+    source_rect     223 403 51 66
+    frame_size      17 33
+    hot_spot        8 32
+
+    // long fireball
+    animation 0
+    {
+        repeat      TRUE
+        fps         16
+        data        0 1
+    }
+
+    // long fireball - end
+    animation 1
+    {
+        repeat      FALSE
+        fps         8
+        data        2
+    }
+
+    // small fireball
+    animation 2
+    {
+        repeat      TRUE
+        fps         16
+        data        3 4
+    }
+}

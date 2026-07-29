@@ -1,0 +1,19 @@
+// ---------------------------------------------------------------------------
+// Open Surge Engine
+// http://opensnc.sourceforge.net
+//
+// File:   quests/super.qst
+// Desc:   super bosses
+// Author: OS Team
+// ---------------------------------------------------------------------------
+
+// quest properties
+name            "$SUPERBOSSES_NAME"
+author          "OS Team"
+version         "1.0"
+description     "$MENU_CQ_SUPERBOSSES"
+image           "images/quest_superbosses.png"
+
+// level list (in order of appearance)
+level           "levels/superboss_1.lev"
+level           "levels/superboss_2.lev"

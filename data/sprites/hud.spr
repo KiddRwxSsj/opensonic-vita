@@ -1,0 +1,183 @@
+// Confirm Box
+sprite SD_CONFIRMBOX
+{
+    source_file     images/gui.png
+    source_rect     13 523 179 63
+    frame_size      179 63
+    hot_spot        0 0
+
+    // default
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+// Dialog Box
+sprite SD_DIALOGBOX
+{
+    source_file     images/gui.png
+    source_rect     12 450 272 68
+    frame_size      272 68
+    hot_spot        0 0
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+
+// Main GUI
+sprite SD_MAINGUI
+{
+    source_file     images/gui.png
+    source_rect     0 0 39 86
+    frame_size      39 43
+    hot_spot        0 0
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+
+    // blinking
+    animation 1
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1
+    }
+}
+
+
+// Life GUI
+sprite SD_LIFEGUI
+{
+    source_file     images/gui.png
+    source_rect     0 90 48 48
+    frame_size      48 16
+    hot_spot        0 0
+
+    // Surge
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+
+    // Neon
+    animation 1
+    {
+        repeat      TRUE
+        fps         8
+        data        1
+    }
+
+    // Charge
+    animation 2
+    {
+        repeat      TRUE
+        fps         8
+        data        2
+    }
+}
+
+
+// Pause
+sprite SD_PAUSE
+{
+    source_file     images/gui.png
+    source_rect     182 56 88 24
+    frame_size      88 24
+    hot_spot        0 0
+
+    // default
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+
+// Level opening
+sprite SD_LEVELOP
+{
+    source_file     images/gui.png
+    source_rect     0 200 125 240
+    frame_size      125 240
+    hot_spot        0 0
+
+    // default
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+
+// Ring Bonus
+sprite SD_RINGBONUS
+{
+    source_file     images/gui.png
+    source_rect     156 391 104 11
+    frame_size      104 11
+    hot_spot        0 0
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+
+// Secret Bonus
+sprite SD_SECRETBONUS
+{
+    source_file     images/gui.png
+    source_rect     156 405 104 11
+    frame_size      104 11
+    hot_spot        0 0
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+
+// Total
+sprite SD_TOTAL
+{
+    source_file     images/gui.png
+    source_rect     156 419 40 11
+    frame_size      40 11
+    hot_spot        0 0
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}

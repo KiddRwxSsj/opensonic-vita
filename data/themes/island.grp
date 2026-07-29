@@ -1,0 +1,59 @@
+//
+// themes/island.grp
+// Exotic Paradise: group settings
+//
+
+// loop
+group
+{
+    brick 46 146 32
+    brick 46 41 32
+    brick 63 7 16
+    brick 63 227 16
+    brick 63 200 16
+    brick 63 136 16
+    brick 63 72 16
+    brick 59 85 251
+    brick 33 162 250
+    brick 57 57 222
+    brick 35 211 221
+    brick 54 6 209
+    brick 39 256 209
+    brick 55 41 171
+    brick 37 240 170
+    brick 54 6 153
+    brick 39 256 153
+    brick 52 43 105
+    brick 40 240 104
+    brick 39 256 98
+    brick 54 6 97
+    brick 50 59 76
+    brick 42 212 75
+    brick 48 86 60
+    brick 44 160 59
+    brick 39 256 43
+    brick 54 6 41
+    brick 58 66 251
+    brick 34 213 250
+    brick 56 43 222
+    brick 36 240 221
+    brick 60 41 171
+    brick 38 162 170
+    brick 51 45 86
+    brick 41 240 84
+    brick 49 67 62
+    brick 43 211 62
+    brick 53 42 60
+    brick 45 160 59
+    item 18 292 169
+    item 19 -26 1
+    item 19 -58 74
+    item 19 -58 168
+    item 19 323 168
+    item 19 323 74
+    item 19 292 0
+    item 18 292 74
+    item 17 134 58
+    item 16 -26 72
+    item 16 -26 168
+}

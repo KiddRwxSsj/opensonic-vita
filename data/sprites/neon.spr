@@ -1,0 +1,218 @@
+// Neon
+sprite SD_TAILS
+{
+    source_file     images/player.png
+    source_rect     200 20 250 650
+    frame_size      50 50
+    hot_spot        25 50
+
+    // stopped
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1 2 3
+    }
+
+    // walking
+    animation 1
+    {
+        repeat      TRUE
+        fps         8
+        data        4 5 6 7 8 9 10 11
+    }
+
+    // running
+    animation 2
+    {
+        repeat      TRUE
+        fps         8
+        data        12 13
+    }
+
+    // jumping
+    animation 3
+    {
+        repeat      TRUE
+        fps         16
+        data        17 18 19 20
+    }
+
+    // crouch down
+    animation 4
+    {
+        repeat      FALSE
+        fps         12
+        data        27
+    }
+
+    // look up
+    animation 5
+    {
+        repeat      FALSE
+        fps         12
+        data        28
+    }
+
+    // spin dash
+    animation 6
+    {
+        repeat      TRUE
+        fps         16
+        data        14 15 16
+    }
+
+    // braking
+    animation 7
+    {
+        repeat      FALSE
+        fps         8
+        data        25 26
+    }
+
+    // dead
+    animation 8
+    {
+        repeat      FALSE
+        fps         8
+        data        23
+    }
+
+    // drowned
+    animation 9
+    {
+        repeat      FALSE
+        fps         8
+        data        23
+    }
+
+    // ledge
+    animation 10
+    {
+        repeat      TRUE
+        fps         6
+        data        39 40
+    }
+
+    // ringless
+    animation 11
+    {
+        repeat      FALSE
+        fps         8
+        data        21 22
+    }
+
+    // breathing
+    animation 12
+    {
+        repeat      FALSE
+        fps         8
+        data        24
+    }
+
+    // spring
+    animation 13
+    {
+        repeat      TRUE
+        fps         16
+        data        29 30
+    }
+
+    // pushing
+    animation 14
+    {
+        repeat      TRUE
+        fps         8
+        data        35 36 37 38
+    }
+
+    // waiting
+    animation 15
+    {
+        repeat      TRUE
+        fps         8
+        data        41 42 43 44 43 44 43 42 41 41 41
+    }
+
+    // carrying (custom)
+    animation 16
+    {
+        repeat      TRUE
+        fps         8
+        data        46 47
+    }
+
+    // swimming (custom)
+    animation 17
+    {
+        repeat      TRUE
+        fps         8
+        data        48 49 50 51 52
+
+    }    
+
+    // tired of swimming (custom)
+    animation 18
+    {
+        repeat      TRUE
+        fps         8
+        data        53 54 55
+    }
+
+    // tired of flying (custom)
+    animation 19
+    {
+        repeat      TRUE
+        fps         8
+        data        33 34
+    }
+
+    // flying (custom)
+    animation 20
+    {
+        repeat      TRUE
+        fps         16
+        data        31 32
+    }
+
+    // -----
+    animation 21
+    {
+        repeat      FALSE
+        fps         1
+        data        0
+    }
+
+    // -----
+    animation 22
+    {
+        repeat      FALSE
+        fps         1
+        data        0
+    }
+
+    // -----
+    animation 23
+    {
+        repeat      FALSE
+        fps         1
+        data        0
+    }
+
+    // -----
+    animation 24
+    {
+        repeat      FALSE
+        fps         1
+        data        0
+    }
+
+    // being carried
+    animation 25
+    {
+        repeat      TRUE
+        fps         8
+        data        45
+    }
+}
+

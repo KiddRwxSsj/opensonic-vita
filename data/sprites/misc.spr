@@ -1,0 +1,50 @@
+// Arrow
+sprite SD_ARROW
+{
+    source_file     images/items.png
+    source_rect     3 37 14 14
+    frame_size      14 14
+    hot_spot        0 0
+
+    // idle
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+// Question Mark
+sprite SD_QUESTIONMARK
+{
+    source_file     images/questionmark.png
+    source_rect     0 0 20 40
+    frame_size      20 40
+    hot_spot        10 32
+
+    // default
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0
+    }
+}
+
+// Invincibility stars
+sprite SD_INVSTAR
+{
+    source_file     images/items.png
+    source_rect     0 58 42 12
+    frame_size      14 12
+    hot_spot        9 9
+
+    // default
+    animation 0
+    {
+        repeat      TRUE
+        fps         8
+        data        0 1 2
+    }
+}

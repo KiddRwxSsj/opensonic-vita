@@ -1,0 +1,204 @@
+//
+// themes/template.grp
+// Template Level: group settings
+//
+
+// regular loop
+group
+{
+    // object_type  object_id       xpos        ypos
+    brick           1021            0           0
+    brick           1020            27          0
+    brick           1019            27          14
+    brick           1018            227         0
+    brick           1022            0           28
+    brick           1017            227         28
+    brick           1014            27          28
+    brick           1013            45          28
+    brick           1011            209         28
+    brick           1012            180         28
+    brick           1015            27          197
+    brick           1010            209         197
+    brick           1000            174         197
+    brick           1001            209         146
+    brick           1002            209         73
+    brick           1003            180         44
+    brick           1004            137         28
+    brick           1005            74          28
+    brick           1006            45          44
+    brick           1007            27          73
+    brick           1008            27          147
+    brick           1009            45          197
+    item            19              -32         -58
+    item            19              -64         -58
+    item            16              -32         38
+    item            19              -64         38
+    item            16              -32         134
+    item            19              -64         134
+    item            19              256         -58
+    item            19              288         -58
+    item            18              256         38
+    item            19              288         38
+    item            18              256         134
+    item            19              288         134
+    item            17              110         25
+}
+
+// "P" loop
+group
+{
+    brick           1021            0           0
+    brick           1020            27          0
+    brick           1019            27          14
+    brick           1018            227         0
+    brick           1022            0           28
+    brick           1022            0           232
+    brick           1022            0           436
+    brick           1017            227         28
+    brick           1014            27          28
+    brick           1013            45          28
+    brick           1011            209         28
+    brick           1012            180         28
+    brick           1010            209         197
+    brick           1015            27          605
+    brick           1008            27          555
+    brick           1009            45          605
+    brick           1000            174         197
+    brick           1001            209         146
+    brick           1002            209         73
+    brick           1003            180         44
+    brick           1004            137         28
+    brick           1005            74          28
+    brick           1006            45          44
+    brick           1007            27          73
+    brick           1016            160         232
+    brick           1016            64          232
+    brick           1016            -32         232
+    item            19              -32         -58
+    item            19              -63         -58
+    item            16              -32         38
+    item            19              -63         38
+    item            16              -32         134
+    item            19              -63         134
+    item            19              256         -58
+    item            19              256         38
+    item            19              256         134
+    item            19              256         230
+    item            33              26          286
+    item            33              58          286
+    item            33              90          286
+    item            34              122         254
+    item            34              122         286
+    item            34              122         318
+    item            34              26          318
+    item            34              58          318
+    item            34              90          318
+    item            19              256         326
+    item            19              256         422
+    item            19              256         518
+    item            19              256         542
+
+    item            34              190         55
+    item            35              97          19
+    item            33              36          55
+}
+
+// "9" loop
+group
+{
+    brick 1016 192 232
+    brick 1016 96 232
+    brick 1016 0 232
+    brick 1019 27 14
+    brick 1018 227 0
+    brick 1020 27 0
+    brick 1021 0 0
+    brick 1000 174 605
+    brick 1001 209 554
+    brick 1017 227 436
+    brick 1017 227 232
+    brick 1009 45 197
+    brick 1008 27 146
+    brick 1007 27 73
+    brick 1002 209 73
+    brick 1006 45 44
+    brick 1003 180 44
+    brick 1005 74 28
+    brick 1004 137 28
+    brick 1017 227 28
+    brick 1022 0 28
+    brick 1010 209 605
+    brick 1015 27 197
+    brick 1012 180 28
+    brick 1011 209 28
+    brick 1013 45 28
+    brick 1014 27 28
+    item 18 256 134
+    item 18 256 38
+    item 19 288 134
+    item 19 288 38
+    item 19 288 -58
+    item 19 -32 542
+    item 19 -32 518
+    item 19 -32 422
+    item 19 -32 326
+    item 19 -32 230
+    item 19 -32 134
+    item 19 -32 38
+    item 34 195 318
+    item 34 163 318
+    item 34 131 318
+    item 34 99 318
+    item 34 99 254
+    item 34 99 286
+    item 33 131 286
+    item 33 163 286
+    item 33 195 286
+    item 19 256 -58
+    item 19 -32 -58
+
+    item 34 36 55
+    item 35 97 19
+    item 33 190 55
+}
+
+
+// rings
+group
+{
+    item 0 0 0
+    item 0 30 0
+    item 0 60 0
+    item 0 90 0
+    item 0 120 0
+}
+
+// big slope
+group
+{
+    brick 4 0 0
+    brick 4 32 17
+    brick 4 64 34
+    brick 4 96 51
+    brick 4 128 68
+    brick 4 160 85
+    brick 4 192 102
+    brick 4 224 119
+    brick 4 256 136
+    brick 4 288 153
+}
+
+// big slope 2
+group
+{
+    brick 1 288 0
+    brick 1 256 17
+    brick 1 224 34
+    brick 1 192 51
+    brick 1 160 68
+    brick 1 128 85
+    brick 1 96 102
+    brick 1 64 119
+    brick 1 32 136
+    brick 1 0 153
+}
