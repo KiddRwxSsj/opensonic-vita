@@ -12,6 +12,8 @@
 
 OpenSonic Vita brings the classic open-source demo engine to the PS Vita. This repo contains the source code, build scripts, and necessary assets to compile and run the game natively on your console.
 
+> **Credits**: Open Sonic is an open-source game by the Open Sonic Team. Original project: <https://opensnc.sourceforge.net/home/index.php>
+
 <p align="center">
   <img src="gameplay.png" alt="OpenSonic Vita Gameplay">
 </p>
