@@ -2,12 +2,6 @@
   <img src="logonobg.png" alt="Open Sonic Logo" width="500"/>
 </p>
 
-<h1 align="center">OpenSonic Vita</h1>
-
-<p align="center">
-  PlayStation Vita port of the open-source game Open Sonic.
-</p>
-
 ---
 
 OpenSonic Vita brings the classic open-source demo engine to the PS Vita. This repo contains the source code, build scripts, and necessary assets to compile and run the game natively on your console.
